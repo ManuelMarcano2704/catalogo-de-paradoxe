@@ -1,0 +1,75 @@
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+
+}
+body {
+    background-image: url("../images/fondo.png");
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;      /* reduce el ancho al 50%, altura se ajusta automáticamente */
+    background-position: top center; /* centra horizontalmente y muestra la parte superior */
+    background-attachment: fixed;    /* opcional: fija el fondo al hacer scroll */
+}
+
+  
+    
+
+
+
+.logo img {
+    position: top;
+    width: 700px;
+    height: auto;
+}
+
+/* Todas las imágenes más pequeñas */
+img {
+    width: 30%;
+    height: 30%;
+}
+
+/* Tipografías */
+#contenido,
+#contenido h1,
+#contenido p,
+#menu,
+#contenido h2,
+#pie {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* Estilos de texto */
+#contenido {
+    font-size: 1.2em;
+    color: rgba(145, 82, 37, 0.514);
+}
+
+#contenido h1 {
+    font-size: 2.5em;
+    color: rgba(145, 82, 37, 0.514);
+}
+
+#contenido p {
+    font-size: 1.1em;
+    color: rgba(145, 82, 37, 0.514);
+}
+
+#menu {
+    font-size: 1.3em;
+    color: rgba(145, 82, 37, 0.514);
+}
+
+#contenido h2 {
+    font-size: 1.6em;
+    color: rgba(145, 82, 37, 0.514);
+}
+
+#pie {
+    font-size: 1.4em;
+    color: black;
+    text-align: center;
+}
